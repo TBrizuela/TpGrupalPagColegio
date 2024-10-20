@@ -1,0 +1,14 @@
+.Logo {
+    border-radius: 10px;
+}
+
+#cartas {
+   margin-top: auto;
+}
+
+#bolitas {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    background-color: rgb(91, 210, 210);
+}
