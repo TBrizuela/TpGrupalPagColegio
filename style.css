@@ -29,9 +29,12 @@ footer{
 }
 
 .footer-logo {
-    height: 80px;
-    width: 80px;
-    margin: 10px;
+
+    margin-left: 47%;
+    height: 85px;
+    width: 85px;
+    border-radius: 15px;
+    box-shadow: 0 0 65px 0 #111;
 }
 
 .footer-texto {
@@ -64,3 +67,51 @@ footer{
     color: #aeaeae;
     padding: 20px;
 }
+
+
+/* Tarjetas */
+
+
+.tarjetas {
+    padding: 40px 40px 60px 40px;
+  }
+  
+  .tarjetas .columna {
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+  }
+  
+  .tarjetas .columna:hover {
+    color: #fee;
+    background-color: #f61;
+  }
+  
+  .tarjetas i {
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 50%;
+  }
+  
+  .tarjeta-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .badges-contenedor {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .badge {
+    margin: 5px;
+  }
+  
