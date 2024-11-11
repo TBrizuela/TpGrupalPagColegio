@@ -114,4 +114,90 @@ footer{
   .badge {
     margin: 5px;
   }
-  
+  /* Barra de navegacion */
+
+.navbar {
+	padding: 2rem;
+	background-color: white;
+}
+.navbar-collapse {
+	align-items: center;
+	justify-content: space-between;  
+}
+
+  /* Adaptable (Responsivo) */
+@media screen and (max-width: 400px) {
+	.overlay p {
+		font-size: 18px;
+}
+
+.overlay i {
+	font-size: 40px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.navbar-brand {
+	  display: none;
+	}
+  }
+
+  /* nombre colegio */
+.nombre-colegio {
+	align-items: center;
+	justify-content: space-between; 
+
+}
+  .logo {
+	border-radius: 50% ;
+	width: 100px;
+	margin: 10px;
+	
+
+  }
+
+  /* sobre nosotros */
+  .sobreNosotros {
+	height:500px;
+	padding: 10px;
+	
+
+
+  }
+
+  .sobreNosotros .contenedor {
+	max-width: 600px;
+	text-align: center;
+  }
+
+  /* general */
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-style: normal;
+  }
+
+  .nombre {
+	display: inline-block;
+	vertical-align: top;
+  }
+
+  .seccion-titulo {
+	font-size: 2rem;
+	padding: 15px 0;
+	font-style: normal;
+	text-align: center;
+  }
+
+  .seccion-texto {
+	font-size: 1rem;
+	text-align: center;
+  }
+
+  .seccion-oscura {
+	background-color: black
+  }
+
+
+
