@@ -1,112 +1,180 @@
 <!DOCTYPE html>
-<html lang="es"
+<html lang="es">
   <head>
-    <!-- Metadatos-->
-     <meta charse="utf-8">
-     <meta name="authors" content="Gomez Elias, Brizuela Thiago, Paz Sofía">
-     <meta name="description" content="Página de la E.E.S.T n°1">
-     <meta name="viewport" content="width=device-witdh, initial-scale=1.0">
-     <!--Título-->
-     <title>Página de la E.E.S.T n°1</title>
-     <!-- Favicon -->
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Elias Gomez">
+    <meta name="description" content="Pagina de turismo">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>E.E.S.T N°1 G.B.</title>
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- Iconos de Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <!-- CSS -->
-    <link href="style.CSS" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
   </head>
-  <body>     
-    <center>
-    <div class="NombreColegio">
-      <img class="logo img-fluid align-items-center justify-content-center d-flex" src="Imagenes/Logo.jpg" alt="logo del colegio">
-      <p class="nombre"><h1>E.E.S.Técnica N°1 "Gral José de San Martín"</h1></p>
-     </p>
+  <body>
+    <div class="title-container">
+      <img src="Imagenes/Logo.jpg" alt="Logo" class="title-image">
+      <h1 class="title">E.E.S.T. N°1 "Gral José de San Martín"</h1>
     </div>
-  </center>
-    <!-- Barra de navegacion -->
+    </nav>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">inicio</a>
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ciclo básico</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Carrera
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item-link" href="#">Informatica</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item-link" href="#">Electronica</a></li>
-              </ul>
+              <a class="nav-link" href="#ciclo-basico">Ciclo Básico</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " aria-disabled="true" href="robotica.html ">Robotica</a>
+              <a class="nav-link" href="#destinos">Informática</a>
+            </li>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Centro de estudiantes</a>
+              <a class="nav-link" href="#contacto">Electrónica</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Robotica</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Centro de Estudiantes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Noticias / eventos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#contacto">Inscripción</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
         </div>
       </div>
     </nav>
-    
-    <!--introduccion-->
 
-    <section id="sobreNosotros"class="sobreNosotros seccion-oscura">
-      <div class="contenedor"></div>
-      <font color="white">
-      <h2 class="seccion-titulo">¿Quienes somos?</h2>
-      <p class="seccion-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sollicitudin convallis urna, at mollis nunc pulvinar eget. Quisque non turpis turpis. Quisque vulputate consectetur felis sit amet finibus. Nam ornare leo pellentesque metus tempus, non pharetra nisi eleifend. Ut elit justo, fermentum nec vehicula ut, commodo nec odio. Ut in ligula vitae felis dignissim sodales. Phasellus vehicula consequat molestie. Suspendisse eu mauris placerat, luctus turpis a, tristique mauris. Aenean dolor orci, eleifend consequat est nec, elementum auctor tellus. Quisque eget pulvinar dolor. Mauris pellentesque vitae libero ut vulputate. Nunc at est placerat, sollicitudin justo ut, fermentum felis. Nullam ligula ante, euismod ut ante non, egestas varius risus. Vivamus volutpat at lacus sit amet blandit. Suspendisse semper erat vitae dolor imperdiet, non commodo dolor ultricies. Nunc condimentum justo non ornare porttitor.</p>
-    </font>
+    <section class="sobre-nosotros">
+      <div class="about-content">
+        <h2>Sobre Nosotros</h2>
+        <p>
+          Somos una escuela técnica comprometida con la formación integral de nuestros estudiantes. 
+          Ofrecemos una educación de calidad enfocada en el desarrollo de habilidades prácticas y conocimientos técnicos 
+          en áreas como informática, electrónica, y robótica, preparando a nuestros alumnos para enfrentar los desafíos del futuro.
+        </p>
+        <p>
+          Nuestro enfoque no solo está en la excelencia académica, sino también en fomentar valores como la innovación, el trabajo en equipo y la ética profesional.
+        </p>
+        <a href="sobre-nosotros.html" class="about-btn">Conoce más</a>
+      </div>
+      <div class="about-img">
+        <img src="Imagenes/Logo.jpg" alt="Sobre Nosotros">
+      </div>
     </section>
+    
 
-    <!-- carrusel imagenes del colegio-->
-    <div id="carouselExample" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="colegio.jfif" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item active">
-          <img src="..." class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item active">
-          <img src="..." class="d-block w-100" alt="...">
+    <section class="secciones-principales">
+      <!-- Sección 1: Ciclo Básico -->
+      <div class="section ciclo-basico">
+        <img src="ciclo-basico.jpg" alt="Ciclo Básico" class="section-img">
+        <div class="section-content">
+          <h3>Ciclo Básico</h3>
+          <p>Fundamentos esenciales para introducir a los estudiantes en el mundo técnico.</p>
+          <a href="ciclo-basico.html" class="section-btn">Ver más</a>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-
     
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
-</html>
-	
-  
-
-
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-</body>
+      <!-- Sección 2: Informática -->
+      <div class="section informatica">
+        <img src="informatica.jpg" alt="Informática" class="section-img">
+        <div class="section-content">
+          <h3>Informática</h3>
+          <p>Explora programación, desarrollo web, y nuevas tecnologías digitales.</p>
+          <a href="informatica.html" class="section-btn">Ver más</a>
+        </div>
+      </div>
+    
+      <!-- Sección 3: Electrónica -->
+      <div class="section electronica">
+        <img src="electronica.jpg" alt="Electrónica" class="section-img">
+        <div class="section-content">
+          <h3>Electrónica</h3>
+          <p>Aprende sobre circuitos, dispositivos y sistemas electrónicos innovadores.</p>
+          <a href="electronica.html" class="section-btn">Ver más</a>
+        </div>
+      </div>
+    
+      <!-- Sección 4: Robótica -->
+      <div class="section robotica">
+        <img src="Imagenes/ClubRobotica.jpg" alt="Robótica" class="section-img">
+        <div class="section-content">
+          <h3>Robótica</h3>
+          <p>Construye y programa robots para enfrentar desafíos tecnológicos.</p>
+          <a href="robotica.html" class="section-btn">Ver más</a>
+        </div>
+      </div>
+    
+      <!-- Sección 5: Centro de Estudiantes -->
+      <div class="section centro-estudiantes">
+        <img src="centro-estudiantes.jpg" alt="Centro de Estudiantes" class="section-img">
+        <div class="section-content">
+          <h3>Centro de Estudiantes</h3>
+          <p>Participa en actividades que representan la voz estudiantil.</p>
+          <a href="centro-estudiantes.html" class="section-btn">Ver más</a>
+        </div>
+      </div>
+    </section>
+    
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Información de contacto -->
+        <div class="footer-section contacto">
+          <h4>Contacto</h4>
+          <p>Dirección: Batalla de Chacabuco 249, Grand Bourg, Provincia de Buenos Aires</p>
+          <p>Teléfono: 02320 48-0129 </p>
+          <p>Email: </p>
+        </div>
+    
+        <!-- Enlaces rápidos -->
+        <div class="footer-section enlaces">
+          <h4>Enlaces Rápidos</h4>
+          <ul>
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Inscripciones</a></li>
+            <li><a href="">Sobre Nosotros</a></li>
+            <li><a href="">Contacto</a></li>
+          </ul>
+        </div>
+    
+        <!-- Redes sociales -->
+        <div class="footer-section redes">
+          <h4>Síguenos</h4>
+          <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    
+      <!-- Derechos reservados -->
+      <div class="footer-bottom">
+        <p>&copy; 2024 Escuela Técnica. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> 
+  </body>
 </html>
