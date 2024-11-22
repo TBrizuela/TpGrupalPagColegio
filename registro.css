@@ -1,0 +1,152 @@
+.FondoImagen {
+    width: 100%;
+}
+
+
+body{
+    background-image: url(Imagenes/proyecto.jpg);
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
+/* Inscripcion */
+
+.formulario {
+    background:radial-gradient(#FFD700, #e9aa2b) ;
+    width: 500px;
+    height: 760px;
+    background-color: rgb(197, 196, 196, 0.5);
+    margin: 0 auto;
+    border-radius: 30px;
+    backdrop-filter: blur(3px);
+    margin-bottom: 10px;
+}
+h6 {
+    padding-top: 29px;
+    font-size: 35px;
+    padding-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.imagenlOGO{
+    width: 150px;
+    border-radius: 100px;
+    margin: 0px 100px;
+
+}
+.encabezado {
+    font-size:  50px;
+    text-align: center;
+
+}
+h2{
+    
+    padding-top: 18px;
+    padding-left: 160px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.completar{
+    background-color: rgb(216, 241, 255);
+    margin: 10px;
+    margin-left: 7px;
+    text-align: center;
+    width: 97%;
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    color: #353535;
+}
+.Ingreso {
+    
+    margin-top: 50px;
+    margin-left: 175px;
+    width: 150px;
+    height: 60px;
+    background-color: rgb(230, 140, 22);
+    border-radius: 30px;
+    border-color: rgb(172, 103, 0);
+    font-size: 20px;
+}
+/* barra de navegacion */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;  
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 20px;
+
+}
+nav ul a {
+    text-align: center;
+    color: rgb(255, 145, 0);
+    text-decoration: none;
+    transition: all .2s ease;
+}
+nav ul a:hover {
+    color: rgb(0, 0, 0);
+}
+.navbar {
+    width: 60%;
+    height:150;
+    display: flex;
+    align-items: center;
+    padding: 30px 10%;
+    background: rgba(173, 133, 10, 0.2);
+    backdrop-filter:blur(3px);
+    background-color: #c9cab533;
+    text-align: center;
+}
+/* pie do pagina */
+.footer{
+    background-color: #c08e04;
+    padding: 80px 0;
+}
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.turismo {
+    width: 25%;
+    padding: 0 15px;
+}
+.turismo h5 {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #ce0;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.turismo ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fafafa;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+.turismo ul li a:hover {
+    color: #fae8ff;
+    padding-left: 10px;
+}
+.iconos a{
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 60%;
+    color: #fafafa;
+    transition: all .5s ease;
+}
+.iconos a:hover{
+    background-color: #4f6aab;
+}
